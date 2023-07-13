@@ -1,6 +1,8 @@
 import discord
 import random
 
+help_message = ("`Help menu currently in the making hold on man...`")
+
 def get_response(message: str) -> str:
     processed_message = message.lower()
     if processed_message == 'Nigga' or 'nigga':
@@ -9,5 +11,7 @@ def get_response(message: str) -> str:
         print(str(random.randint(1, 6)))
     if processed_message == '!help':
         print(help_message)
+    else:
+        print("What are you saying? try using !help")
 
 
