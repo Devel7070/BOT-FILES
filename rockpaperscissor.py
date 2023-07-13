@@ -3,7 +3,7 @@ import random
 import time
 
 
-def game():
+def game_rockpaperscissors():
 
     print("Welcome to RPS Simulator.")
     time.sleep(2)
@@ -47,7 +47,7 @@ def game():
         time.sleep(1.5)
         restart = input("rematch or no rematch (yes/no)")
     if restart == "yes":
-        game()
+        game_rockpaperscissors()
 
 
-game()
+game_rockpaperscissors()
